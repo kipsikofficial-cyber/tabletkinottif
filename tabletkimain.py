@@ -5,9 +5,9 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Настройки
-TOKEN = "8436447853:AAH3miX36x2CAKk04qOz4jV9_DTaxV0le5Y"
-USER_A_ID = 244904795  # ID пользователя, который будет получать напоминания и отправлять фото
-USER_B_ID = 987950927  # ID пользователя, который будет получать фото
+TOKEN = ""
+USER_A_ID =   # ID пользователя, который будет получать напоминания и отправлять фото
+USER_B_ID =   # ID пользователя, который будет получать фото
 
 # Настройка логгирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -77,4 +77,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
